@@ -1,0 +1,64 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn start
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "auth-with-passport",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/rhogan29/Auth-with-passport.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/rhogan29/Auth-with-passport/issues"
+    },
+    "homepage": "https://github.com/rhogan29/Auth-with-passport#readme",
+    "dependencies": {
+      "express": "^4.16.3",
+      "mongoose": "^5.1.1"
+    },
+    "devDependencies": {
+      "nodemon": "^1.17.4"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Command failed.
+  Exit code: 1
+  Command: sh
+  Arguments: -c node server.js
+  Directory: /Users/roberthogan/Desktop/Auth-with-passport/Auth-with-passport
+  Output:
+  
+      at ProcessTermError.MessageError (/usr/local/lib/node_modules/yarn/lib/cli.js:186:110)
+      at new ProcessTermError (/usr/local/lib/node_modules/yarn/lib/cli.js:226:113)
+      at ChildProcess.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:30281:17)
+      at emitTwo (events.js:126:13)
+      at ChildProcess.emit (events.js:214:7)
+      at maybeClose (internal/child_process.js:925:16)
+      at Process.ChildProcess._handle.onexit (internal/child_process.js:209:5)
