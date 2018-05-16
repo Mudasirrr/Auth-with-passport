@@ -105,7 +105,7 @@ server.get('/api/logout', (req, res) => {
             if (err) {
                 res.send('Error');
             } else {
-                res.send('good bye');
+                res.send('closing time...');
             }
         });
     }
